@@ -1,4 +1,7 @@
-a=int(input())
-b=list(dict.fromkeys(map(int,input().split())))
-for i in b:
-    print(*b)
+a=input()
+b=input()
+b=b.split()
+for i in a:
+    if i!=b:
+        print(i)
+        break
