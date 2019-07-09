@@ -1,0 +1,2 @@
+subhi=input()
+print(subhi)
