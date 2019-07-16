@@ -1,0 +1,9 @@
+l=input()
+p=list(map(int,l))
+k=sum(p)
+k=str(k)
+r=k[::-1]
+if(k==r):
+    print("YES")
+else:
+    print("NO")
