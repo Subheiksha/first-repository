@@ -1,7 +1,9 @@
-a=input()
-w = input().split()
-  
-# Using sort() function 
-w.sort() 
-  
-print(*w,sep="\n") 
+import sys,string
+
+q = int(input())
+a = input().split()
+w = []
+for i in range(0,q) :
+    w.append(a[i].lower())
+w.sort()
+print(*w,sep='\n')
